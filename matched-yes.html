@@ -1,26 +1,26 @@
 <div class="st-modal-container">
-<div class="shopthru-modal">
-  <h3 id="stmid-title">Congratulations!</h3>
-  <p id="stmid-notice">We've found <span><strong>2 discounts</strong></span> for you! You can use each one once.<br/>Discounts are applied at checkout.</p>
-  <div class="shopthru-modal-table" id="stmid-table">
-    <div class="shopthru-modal-row">
-      <span class="stmr-child stmrc-discount">40% OFF</span>
-      <span class="stmr-child stmrc-expiry">Valid until Jun 4 2022</span>
-      <span class="stmr-child stmr-action">
-        <button class="stmrc-button stmrc-button-active">Apply Discount</button> <!-- onClick - https://THIS_FULL_URL?discount=DISCOUNT_CODE no quotes, code, not ID -->
-      </span>
+  <div class="shopthru-modal">
+    <span onclick="" class="close-button topright">&times;</span>
+    <h3 id="stmid-title">Congratulations!</h3>
+    <p id="stmid-notice">We've found <span><strong>2 discounts</strong></span> for you! You can use each one
+      once.<br />Discounts are applied at checkout.</p>
+    <div class="shopthru-modal-table" id="stmid-table">
+      <div class="ticket">
+        <div class="top">
+          <div class="info-discount">10%</div>
+          <div class="info-expiry">
+            <span class="expires">Expires</span>
+            <span class="date">11 June 2022</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <button class="applyDiscount">Use discount</button>
+        </div>
+      </div>
+
     </div>
-    <div class="shopthru-modal-row">
-      <span class="stmr-child stmrc-discount">20% OFF</span>
-      <span class="stmr-child stmrc-expiry">Never expires</span>
-      <span class="stmr-child stmr-action">
-        <button class="stmrc-button stmrc-button-disabled" type="button">Discount Used</button>
-      </span>
+    <div class="stm-actionbar">
+      <button type="button" class="stma-button" id="stmid-disconnect">Disconnect Wallet</button>
     </div>
   </div>
-  <div class="stm-actionbar">
-    <button type="button" class="stma-button" id="stmid-disconnect">Disconnect Wallet</button>
-  </div>
-  <span onclick="" class="close-button topright">&times;</span>
-</div>
 </div>
